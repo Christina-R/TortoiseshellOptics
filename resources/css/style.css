@@ -1,0 +1,141 @@
+body{
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.top-bar,
+.head-middle,
+.container-icons,
+.philosophy-appointments,
+footer{
+  width: 960px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+/*  border: 1px solid yellow;*/
+/*  border just for visualization aid */
+}
+
+header{
+  background-image: url(../glasses-bg.png);
+  height: 31rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-bar{
+  background-color: cadetblue;
+  justify-content: space-between;
+  color: white;
+  font-size: 1rem;
+  position: relative;
+  top: 1rem;
+}
+
+.logo-name{
+  display: flex;
+  align-items: center;
+}
+
+.logo-white{
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+nav{
+  padding: 1rem 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+.head-middle{
+  justify-content: flex-end;
+  position: relative;
+  right: -2rem;
+}
+
+.white-box{
+  margin-top: 11rem;
+  padding: 2.5rem 5rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+}
+
+.container-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.box-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+
+.icon-paper{
+  width: 3.5rem;
+  height: auto;
+  align-self: center;
+}
+
+.icon-ruler,
+.icon-truck{
+  width: 5rem;
+}
+
+.icon-text{
+  text-align: center;
+}
+
+.philosophy-appointments{
+  display: flex;
+  align-items: flex-start;
+}
+
+.box-philosophy{
+  display: flex;
+  margin-right: 15%;
+  width: 35%;
+/*  border: 2px dotted red;*/
+  /*  border just for visualization aid */
+}
+
+
+.headline{
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer{
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+.copyright{
+  padding: 4rem 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.logo-black{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
