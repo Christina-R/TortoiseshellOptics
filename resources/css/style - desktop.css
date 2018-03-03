@@ -81,7 +81,7 @@ a{
   align-items: center;
   padding: 3rem;
   height: 8rem;
-  width: 7rem;
+  width: 5rem;
 }
 
 .icon-paper{
@@ -106,7 +106,7 @@ a{
 
 .box-philosophy{
   display: flex;
-  margin: 0 2.5% 0 7%;
+  margin-right: 15%;
   width: 35%;
 /*  border: 2px dotted red;*/
   /*  border just for visualization aid */
@@ -126,10 +126,10 @@ a{
 footer{
   background-color: azure;
   margin-top: 5rem;
-    padding: 4rem 4rem;
 }
 
 .copyright{
+  padding: 4rem 4rem;
   display: flex;
   align-items: center;
   font-size: 1rem;
