@@ -2,6 +2,7 @@ body{
   font-size: 18px;
   font-family: Helvetica;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 .top-bar,
@@ -271,17 +272,19 @@ a{
 }
 
 
-
 footer{
   background-color: azure;
   margin-top: 5rem;
-  padding: 4rem 4rem;
+  padding: 4rem 2rem 4rem 4rem;
 }
 
 @media only screen and (max-width: 960px){
   
 footer{
-  padding: 4rem 2rem; 
+   padding: 4rem 0;
+}
+.copyright{
+  padding-left: 2rem;
 }
 }
 
@@ -299,20 +302,19 @@ footer{
 
 @media  only screen and (max-width: 550px){
   
-  footer{
-    display: flex;
-    justify-content: center;
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
   }
-  
-  .logo-black{
+
+.logo-black{
   padding-right: 0;
   }
   
 .copyright span{
-    display: none;   
+  display: none;   
   }
-  
-  
 }
 
   
