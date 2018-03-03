@@ -30,6 +30,7 @@ footer{
 }
 
 
+
 header{
   background-image: url(../glasses-bg.png);
   height: 31rem;
@@ -43,6 +44,15 @@ header{
 header{
   height: 22rem;
 }
+}
+
+
+@media only screen and (max-width: 550px){
+  
+header{
+  height: 17rem;
+  background-position: 20%;
+} 
 }
 
 
@@ -73,9 +83,30 @@ header{
   padding: 0 1rem 0 2rem;
 }
 
-nav{
+.nav-desktop{
   padding: 1rem 0;
 }
+
+.nav-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 550px){
+  
+  .logo-name span{
+    display: none;
+  }
+    
+   .nav-desktop{
+     display: none;
+   }
+  
+  .nav-mobile{
+    display: block;
+    padding: 1rem 1rem;
+  }
+}
+
 
 a{
   color: white;
@@ -122,7 +153,28 @@ a{
 }
 } 
   
+
+@media only screen and (max-width: 550px){
   
+.head-middle{
+  width: 100%;
+  right: 0;
+/*  border: 2px solid red;*/
+  }
+  
+.white-box{
+  margin-top: 9rem;
+  margin-right: 0;
+  padding: 1rem 4rem;
+  font-size: 1.33rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  
+} 
+}
+
+
 .container-icons{
   display: flex;
   justify-content: center;
@@ -137,6 +189,21 @@ a{
   height: 8rem;
   width: 7rem;
 }
+
+@media only screen and (max-width: 550px){
+ 
+.container-icons{
+  flex-direction: column;
+  margin: 3rem 0;
+} 
+  
+.box-icon{
+  padding: 0.77rem;
+  font-size: 0.77rem;
+  width: 3rem;
+} 
+}
+
 
 .icon-paper{
   width: 3.5rem;
@@ -166,7 +233,6 @@ a{
   /*  border just for visualization aid */
 }
 
-
 .headline{
   width: 10rem;
   background-color: cadetblue;
@@ -176,6 +242,35 @@ a{
   padding: 0.5rem 1.25rem;
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 550px){
+  
+.philosophy-appointments{
+  flex-direction: column;
+/*  border: 2px dotted red;*/
+  /*  border just for visualization aid */
+} 
+  
+.box-philosophy{
+  margin: 0;
+  width: 100%;
+/*  border: 2px dotted red;*/
+  /*  border just for visualization aid */
+}
+
+ .headline{
+  width: 100%;
+  padding: 0.5rem 0;
+   text-align: center;
+}
+  
+.text{
+  font-size: 0.77rem;
+  padding-left: 0.25rem;
+  }
+}
+
+
 
 footer{
   background-color: azure;
@@ -202,6 +297,22 @@ footer{
   padding-right: 1rem;
 }
 
-
+@media  only screen and (max-width: 550px){
+  
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-black{
+  padding-right: 0;
+  }
+  
+.copyright span{
+    display: none;   
+  }
+  
+  
+}
 
   
