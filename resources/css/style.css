@@ -17,6 +17,19 @@ footer{
 /*  border just for visualization aid */
 }
 
+
+@media only screen and (max-width: 960px){
+
+.top-bar,
+.head-middle,
+.container-icons,
+.philosophy-appointments,
+ footer{
+  width: 100%;
+  }
+}
+
+
 header{
   background-image: url(../glasses-bg.png);
   height: 31rem;
@@ -24,6 +37,14 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 960px){
+ 
+header{
+  height: 22rem;
+}
+}
+
 
 .top-bar{
   background-color: cadetblue;
@@ -33,6 +54,14 @@ header{
   position: relative;
   top: 1rem;
 }
+
+@media only screen and (max-width: 960px){
+  
+.top-bar{
+  top: 0;
+}
+}
+ 
 
 .logo-name{
   display: flex;
@@ -54,6 +83,14 @@ a{
   padding: 2rem;
 }
 
+@media only screen and (max-width: 960px){
+  
+a{
+  padding: 1rem;  
+  }
+}
+
+
 .head-middle{
   justify-content: flex-end;
   position: relative;
@@ -69,6 +106,23 @@ a{
   line-height: 1.2rem;
 }
 
+@media only screen and (max-width: 960px){
+  
+.head-middle{
+  justify-content: flex-end;
+  position: relative;
+  right: 2rem;
+  }
+  
+.white-box{
+  margin-top: 5rem;
+  margin-right: 2rem;
+  padding: 1.75rem 4rem;
+  font-size: 1.33rem;
+}
+} 
+  
+  
 .container-icons{
   display: flex;
   justify-content: center;
@@ -126,8 +180,16 @@ a{
 footer{
   background-color: azure;
   margin-top: 5rem;
-    padding: 4rem 4rem;
+  padding: 4rem 4rem;
 }
+
+@media only screen and (max-width: 960px){
+  
+footer{
+  padding: 4rem 2rem; 
+}
+}
+
 
 .copyright{
   display: flex;
@@ -139,3 +201,7 @@ footer{
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+
+
+  
